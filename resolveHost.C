@@ -23,7 +23,7 @@ int main( int argc, char** argv )
 
    if ( argc < 2 ) 
    {
-      printf( "Usage:  %s <hostname to resolve> \n", argv[ 0 ] ) ;
+      printf( "Usage:  %s <host name to resolve> \n", argv[ 0 ] ) ;
       rc = -1 ;
       goto exit ;
    }
@@ -59,7 +59,7 @@ int main( int argc, char** argv )
       goto exit ;
    }
 
-   printf( "Canonical hostname of %s is %s\n", szServerHostName, aiList->ai_canonname ) ;
+   printf( "Canonical host name of %s is %s\n", szServerHostName, aiList->ai_canonname ) ;
 
    for ( int i = 0 ;
          i < 5 ;
@@ -84,7 +84,7 @@ int main( int argc, char** argv )
       goto exit ;
    }
 
-   printf( "IP Address of the canonical hostname of %s is %s\n", szServerHostName, szIPAddress ) ;
+   printf( "IP Address of the canonical host name of %s is %s\n", szServerHostName, szIPAddress ) ;
    
 
 
