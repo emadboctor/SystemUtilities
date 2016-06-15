@@ -1,3 +1,6 @@
+// Simple utility to show canonical host name of a host and its IP address.
+// Takes a host name as a parameter 
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
